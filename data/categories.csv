@@ -1,0 +1,25 @@
+category_id,slug,name,is_axis,positive_means,negative_means
+1,cost_of_living,Cost of living,false,"Lowers everyday costs (groceries, childcare, general prices)","Raises everyday costs"
+2,personal_taxes,Personal taxes,false,Reduces the tax burden on individuals and families,Increases the tax burden on individuals and families
+3,workers_wages,Workers & wages,false,"Better pay, job security or worker protections","Weakens pay, job security or worker protections"
+4,small_business,Small business,false,"Lowers barriers, costs or red tape for small firms","Adds barriers, costs or red tape for small firms"
+5,health_care,Health care access & cost,false,More coverage or lower costs for patients,Less coverage or higher costs for patients
+6,seniors_retirement,Seniors & retirement,false,"Strengthens Social Security, Medicare or pensions","Weakens Social Security, Medicare or pensions"
+7,education,Education & student debt,false,"More access to schools and training, or lower student debt","Less access to schools and training, or higher student debt"
+8,housing,Housing affordability,false,Easier to rent or buy a home,Harder to rent or buy a home
+9,public_safety,Public safety & crime,false,"Reduces crime or supports law enforcement and victims","Increases crime risk or weakens law enforcement and victim support"
+10,firearms,Firearms,true,Expands gun owners' rights,Adds gun regulation
+11,immigration,Immigration,true,Tighter enforcement and limits,Expanded legal pathways
+12,reproductive_health,Abortion & reproductive health,true,Expands access,Restricts access
+13,environment_climate,Environment & climate,false,"Cleaner air, water and land, or lower emissions","More pollution or emissions, or weaker environmental protection"
+14,national_security,National security & defense,false,Stronger military readiness or homeland security,Weaker military readiness or homeland security
+15,veterans,Veterans & military families,false,"Better benefits, care or support","Reduced benefits, care or support"
+16,privacy_civil_liberties,Privacy & civil liberties,false,"Protects speech and privacy, limits surveillance","Restricts speech or privacy, expands surveillance"
+17,civil_rights,Civil rights & equal treatment,false,Stronger anti-discrimination protections,Weaker anti-discrimination protections
+18,deficit_spending,Federal deficit & spending,false,Reduces the deficit or the debt,Increases the deficit or the debt
+19,rural_agriculture,Rural & agriculture,false,Helps farmers and rural communities,Hurts farmers and rural communities
+20,elections_accountability,Elections & government accountability,false,"More transparency, ethics rules or voting access","Less transparency, weaker ethics rules or reduced voting access"
+21,energy,Energy supply & prices,false,"More reliable energy supply or lower energy bills","Less reliable energy supply or higher energy bills"
+22,infrastructure,Infrastructure & transportation,false,"Better roads, transit, water systems or broadband","Neglects or cuts roads, transit, water systems or broadband"
+23,consumer_protection,Consumer protection,false,"Protects people from scams, hidden fees and unsafe products","Weakens protections against scams, hidden fees and unsafe products"
+24,ai_tech,AI & tech,true,"Favors innovation and lighter regulation of AI, platforms and tech firms","Adds oversight, safety rules or limits on AI, platforms and tech firms"

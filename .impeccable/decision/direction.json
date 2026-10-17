@@ -1,0 +1,96 @@
+{
+  "title": "Choose the visual world for dollarvote",
+  "question": "The roll assigned The Tally Board. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Tally Board",
+      "kicker": "THE ROLL",
+      "lineage": "the electronic vote display boards on the House chamber walls, as seen on C-SPAN",
+      "thesis": "Every legislator is a lamp on the chamber board, and your 5 interests decide which lamps light up.",
+      "palette": ["#0e1a14", "#e9efe8", "#3fd47a", "#ff5a4a", "#f2b632", "#7d8c84"],
+      "materials": ["walnut-dark board face", "backlit name strips", "yea/nay lamp cells with Y and N letters"],
+      "viewport": "Your 5 picks sit across the top as lit selector keys. Below, the full board of 535 name strips re-sorts in place, and the best-aligned members burn brightest.",
+      "risk": "Green and red lamps read as pass and fail, so every lamp also carries a letter and a number, and the axis categories need their direction stated in words.",
+      "raised": [
+        {"from": "challenger-split-flap", "raise": "The board keeps a fixed cell grid. Changing a pick re-sorts the rows in place with a per-cell cascade, and columns never move."},
+        {"from": "challenger-boarding-pass", "raise": "Rows keep their identity while they re-rank, and a row that moved stays marked until the visitor has seen it."},
+        {"from": "challenger-transit-map", "raise": "Each of your 5 interests owns one lamp color on every screen: the board, the legislator page and the bill page."},
+        {"from": "challenger-timetable", "raise": "Inside the board, rank shows through weight, case and reversed cells, not bigger type."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "The Sample Ballot",
+      "kicker": "MY PICK",
+      "lineage": "the paper sample ballot mailed before every election",
+      "thesis": "You mark 5 ovals, and the ballot hands back the legislators who voted your way.",
+      "palette": ["#fbfbf7", "#141414", "#1f4fd1", "#d8d8cf"],
+      "materials": ["bond paper", "fill-in ovals", "numbered contest boxes", "official instruction text"],
+      "viewport": "A ballot sheet with 24 interests as ovals in contest columns. Marking the fifth one turns the sheet into a ranked results column.",
+      "risk": "It's the most familiar civic metaphor, and the ballot can read as an actual election ballot."
+    },
+    {
+      "id": "challenger-boarding-pass",
+      "label": "Boarding Pass & Gate Board",
+      "verdict": "competitive",
+      "lineage": "airline boarding passes and live gate boards",
+      "thesis": "Your 5 interests print on a pass, and the board re-ranks every legislator against it.",
+      "palette": ["#f4f4f1", "#111111", "#ff6b00", "#8a8a85"],
+      "materials": ["segmented pass stock", "tabular board rows", "one alert color for changes"],
+      "viewport": "A segmented pass holds your 5 picks on the left. On the right, a ranked board reorders rows in place.",
+      "case": "It's very clear about ranking, but visitors connect less with air travel than with the chamber board.",
+      "risk": "The travel metaphor has nothing to do with Congress, so it can feel like a costume."
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "Split-Flap Concourse",
+      "verdict": "declined",
+      "lineage": "rail station split-flap departure boards",
+      "thesis": "Legislators clatter into rank on a departure board.",
+      "palette": ["#111111", "#f5f5f0", "#f2a900", "#a3241c"],
+      "materials": ["matte flaps", "brushed steel frame"],
+      "viewport": "A full-width flap board of ranked names.",
+      "case": "It's the same family as the chamber board, but without any tie to Congress.",
+      "risk": "The flapping becomes a gimmick after the first sort.",
+      "kept": "Fixed cell grid; only the cells change."
+    },
+    {
+      "id": "challenger-transit-map",
+      "label": "Midnight Transit Diagram",
+      "verdict": "declined",
+      "lineage": "enamel metro maps",
+      "thesis": "Interests are lines, and legislators are stations where they cross.",
+      "palette": ["#141c3a", "#f4f1ea", "#e0402f", "#2f6fd6", "#f0a830", "#2fa86a"],
+      "materials": ["enamel ground", "porcelain station ticks"],
+      "viewport": "Five colored lines across a city of names.",
+      "case": "The metaphor fights the ranking job, and visitors don't think of their interests as routes.",
+      "risk": "Pretty, but unreadable at 535 stations.",
+      "kept": "Each chosen line keeps its color everywhere."
+    },
+    {
+      "id": "challenger-timetable",
+      "label": "Timetable Slide Rack",
+      "verdict": "declined",
+      "lineage": "1970s pocket airline timetables",
+      "thesis": "One type size, with rank carried by weight and reversal.",
+      "palette": ["#e2b33c", "#2b2b2b", "#f3eedc", "#c8402a", "#2e6b4a"],
+      "materials": ["tinted glass slides", "goldenrod light bed"],
+      "viewport": "A raked rack of slides.",
+      "case": "Sideways travel through slides hides a ranking a visitor needs to see all at once.",
+      "risk": "Slanted containers fight a dense table.",
+      "kept": "Rank by weight, case and reversal, not size."
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean civic-data dashboard: checkbox filters on the left, a sortable legislator table, and party-colored badges.",
+    "palette": ["#ffffff", "#1a2230", "#2a5bd7", "#d33a3a"],
+    "materials": ["clean grid", "cards and pills", "red and blue party chips"],
+    "viewport": "Filters on the left, ranked table on the right.",
+    "risk": "It looks like every civic-tech site, and the party colors pull attention away from interests."
+  },
+  "steer": true
+}

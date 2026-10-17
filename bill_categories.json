@@ -1,0 +1,600 @@
+{
+    "bills": [
+        {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Waivers and Modifications of Federal Student Loans\".",
+            "scores": [
+                {
+                    "score": -2,
+                    "category": "education",
+                    "rationale": "Nullifies the student loan payment pause and debt discharge rule, leaving borrowers with more debt.",
+                    "confidence": "high"
+                },
+                {
+                    "score": 2,
+                    "category": "deficit_spending",
+                    "rationale": "Cancelling broad loan forgiveness avoids a large federal cost.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HJRES45",
+            "law_number": null,
+            "policy_area": "Education"
+        },
+        {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Labor Relations Board relating to \"Standard for Determining Joint Employer Status\".",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "workers_wages",
+                    "rationale": "Nullifies the NLRB joint-employer rule, making it harder for workers to bargain with parent companies and franchisors.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "small_business",
+                    "rationale": "Spares franchisees and small contractors the shared-liability exposure of the broader joint-employer standard.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HJRES98",
+            "law_number": null,
+            "policy_area": "Labor and Employment"
+        },
+        {
+            "title": "Save Our Gas Stoves Act",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "environment_climate",
+                    "rationale": "Blocks DOE efficiency standards for ranges and ovens.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": -1,
+                    "category": "energy",
+                    "rationale": "Efficiency standards typically lower household energy use; blocking them may raise bills, though it preserves gas appliance choice.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR1640",
+            "law_number": null,
+            "policy_area": "Energy"
+        },
+        {
+            "title": "To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes.",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "health_care",
+                    "rationale": "Ends the COVID-19 vaccination requirement for foreign air travelers, removing a public health entry measure.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR185",
+            "law_number": null,
+            "policy_area": "Health"
+        },
+        {
+            "title": "Secure the Border Act of 2023",
+            "scores": [
+                {
+                    "score": 2,
+                    "category": "immigration",
+                    "rationale": "Restricts asylum, mandates E-Verify, resumes border wall construction and raises Border Patrol staffing.",
+                    "confidence": "high"
+                },
+                {
+                    "score": -1,
+                    "category": "small_business",
+                    "rationale": "Mandatory E-Verify adds hiring compliance work for small employers.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "national_security",
+                    "rationale": "Expands border surveillance, staffing and air and marine operations.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR2",
+            "law_number": null,
+            "policy_area": "Immigration"
+        },
+        {
+            "title": "Strategic Production Response Act",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "environment_climate",
+                    "rationale": "Ties reserve use to expanding oil and gas leasing on federal lands and offshore.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "national_security",
+                    "rationale": "Preserves Strategic Petroleum Reserve stocks for emergencies.",
+                    "confidence": "low"
+                },
+                {
+                    "score": 1,
+                    "category": "energy",
+                    "rationale": "Pushes more federal oil and gas leasing, but limits using the reserve to ease prices.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR21",
+            "law_number": null,
+            "policy_area": "Energy"
+        },
+        {
+            "title": "Expanding Access to Capital Act of 2023",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "small_business",
+                    "rationale": "Eases securities rules so startups and small firms can raise capital.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": -1,
+                    "category": "consumer_protection",
+                    "rationale": "Reduces disclosure and registration requirements that protect investors.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR2799",
+            "law_number": null,
+            "policy_area": "Finance and Financial Sector"
+        },
+        {
+            "title": "Federal Law Enforcement Officer Service Weapon Purchase Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "firearms",
+                    "rationale": "Lets federal officers buy their retired service firearms.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR3091",
+            "law_number": null,
+            "policy_area": "Crime and Law Enforcement"
+        },
+        {
+            "title": "Reduce Exacerbated Inflation Negatively Impacting the Nation Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "elections_accountability",
+                    "rationale": "Requires inflation impact estimates for major executive orders.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR347",
+            "law_number": null,
+            "policy_area": "Economics and Public Finance"
+        },
+        {
+            "title": "Middle Class Borrower Protection Act of 2023",
+            "scores": [
+                {
+                    "score": 0,
+                    "category": "housing",
+                    "rationale": "Mixed: restoring the old mortgage fee chart lowers fees for high-credit borrowers and raises them for low-credit, low-down-payment borrowers; bans debt-to-income fees.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR3564",
+            "law_number": null,
+            "policy_area": "Finance and Financial Sector"
+        },
+        {
+            "title": "Fiscal Responsibility Act of 2023",
+            "scores": [
+                {
+                    "score": 2,
+                    "category": "deficit_spending",
+                    "rationale": "Sets spending caps and rescinds unspent funds; CBO projected large deficit reduction.",
+                    "confidence": "high"
+                },
+                {
+                    "score": -1,
+                    "category": "education",
+                    "rationale": "Ends the student loan payment pause.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": -1,
+                    "category": "environment_climate",
+                    "rationale": "Narrows NEPA environmental reviews and fast-tracks the Mountain Valley Pipeline.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "energy",
+                    "rationale": "Speeds energy project permitting.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR3746",
+            "law_number": "118-5",
+            "policy_area": "Economics and Public Finance"
+        },
+        {
+            "title": "CHOICE Arrangement Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "small_business",
+                    "rationale": "Lets small employers band together in association plans and offer health reimbursement arrangements.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "health_care",
+                    "rationale": "Adds lower-cost coverage options, though critics say association plans can offer thinner coverage.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR3799",
+            "law_number": null,
+            "policy_area": "Taxation"
+        },
+        {
+            "title": "Financial Innovation and Technology for the 21st Century Act",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "consumer_protection",
+                    "rationale": "Critics say exemptions from SEC rules weaken investor protections.",
+                    "confidence": "low"
+                },
+                {
+                    "score": 1,
+                    "category": "ai_tech",
+                    "rationale": "Creates a crypto framework that moves most digital assets to lighter CFTC oversight.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR4763",
+            "law_number": null,
+            "policy_area": "Finance and Financial Sector"
+        },
+        {
+            "title": "Parents Bill of Rights Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "education",
+                    "rationale": "Gives parents rights to review curriculum, library books and school budgets.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "privacy_civil_liberties",
+                    "rationale": "Bans schools from selling student information.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": -1,
+                    "category": "civil_rights",
+                    "rationale": "Requires parental notice or consent on transgender students' names, pronouns, facilities and sports participation.",
+                    "confidence": "low"
+                }
+            ],
+            "bill_id": "HR5",
+            "law_number": null,
+            "policy_area": "Education"
+        },
+        {
+            "title": "CBDC Anti-Surveillance State Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "privacy_civil_liberties",
+                    "rationale": "Bans a Federal Reserve digital currency, which supporters say would enable government tracking of payments.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR5403",
+            "law_number": null,
+            "policy_area": "Finance and Financial Sector"
+        },
+        {
+            "title": "DETERRENT Act",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "national_security",
+                    "rationale": "Tightens disclosure and limits on university ties to countries of concern such as China and Russia.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": 1,
+                    "category": "elections_accountability",
+                    "rationale": "Lowers the foreign gift disclosure threshold for universities from $250,000 to $50,000.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR5933",
+            "law_number": null,
+            "policy_area": "Education"
+        },
+        {
+            "title": "Reforming Intelligence and Securing America Act",
+            "scores": [
+                {
+                    "score": 2,
+                    "category": "national_security",
+                    "rationale": "Reauthorizes Section 702 foreign intelligence surveillance for two years.",
+                    "confidence": "high"
+                },
+                {
+                    "score": -1,
+                    "category": "privacy_civil_liberties",
+                    "rationale": "Extends warrantless 702 collection and widens which providers must assist, while adding FBI query limits.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "HR7888",
+            "law_number": "118-49",
+            "policy_area": "Armed Forces and National Security"
+        },
+        {
+            "title": "Ukraine Security Supplemental Appropriations Act, 2024",
+            "scores": [
+                {
+                    "score": 1,
+                    "category": "national_security",
+                    "rationale": "Funds Ukraine military aid and replenishes U.S. weapons stocks.",
+                    "confidence": "medium"
+                },
+                {
+                    "score": -1,
+                    "category": "deficit_spending",
+                    "rationale": "About $61 billion in emergency spending outside the spending caps.",
+                    "confidence": "high"
+                }
+            ],
+            "bill_id": "HR8035",
+            "law_number": null,
+            "policy_area": "Economics and Public Finance"
+        },
+        {
+            "title": "Social Security Fairness Act of 2023",
+            "scores": [
+                {
+                    "score": 2,
+                    "category": "seniors_retirement",
+                    "rationale": "Repeals the WEP and GPO, raising Social Security benefits for public pension recipients.",
+                    "confidence": "high"
+                },
+                {
+                    "score": -2,
+                    "category": "deficit_spending",
+                    "rationale": "CBO estimated roughly $196 billion in added spending over ten years.",
+                    "confidence": "high"
+                }
+            ],
+            "bill_id": "HR82",
+            "law_number": "118-273",
+            "policy_area": "Social Welfare"
+        },
+        {
+            "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat\".",
+            "scores": [
+                {
+                    "score": -1,
+                    "category": "environment_climate",
+                    "rationale": "Removes endangered status for the northern long-eared bat.",
+                    "confidence": "high"
+                },
+                {
+                    "score": 1,
+                    "category": "rural_agriculture",
+                    "rationale": "Eases habitat restrictions on rural logging, farming and energy projects.",
+                    "confidence": "medium"
+                }
+            ],
+            "bill_id": "SJRES24",
+            "law_number": null,
+            "policy_area": "Animals"
+        }
+    ],
+    "scale": "score -2..2 per category; for is_axis categories the sign is direction, not good/bad",
+    "congress": 118,
+    "categories": [
+        {
+            "name": "Cost of living",
+            "slug": "cost_of_living",
+            "is_axis": false,
+            "category_id": 1,
+            "negative_means": "Raises everyday costs",
+            "positive_means": "Lowers everyday costs (groceries, childcare, general prices)"
+        },
+        {
+            "name": "Personal taxes",
+            "slug": "personal_taxes",
+            "is_axis": false,
+            "category_id": 2,
+            "negative_means": "Increases the tax burden on individuals and families",
+            "positive_means": "Reduces the tax burden on individuals and families"
+        },
+        {
+            "name": "Workers & wages",
+            "slug": "workers_wages",
+            "is_axis": false,
+            "category_id": 3,
+            "negative_means": "Weakens pay, job security or worker protections",
+            "positive_means": "Better pay, job security or worker protections"
+        },
+        {
+            "name": "Small business",
+            "slug": "small_business",
+            "is_axis": false,
+            "category_id": 4,
+            "negative_means": "Adds barriers, costs or red tape for small firms",
+            "positive_means": "Lowers barriers, costs or red tape for small firms"
+        },
+        {
+            "name": "Health care access & cost",
+            "slug": "health_care",
+            "is_axis": false,
+            "category_id": 5,
+            "negative_means": "Less coverage or higher costs for patients",
+            "positive_means": "More coverage or lower costs for patients"
+        },
+        {
+            "name": "Seniors & retirement",
+            "slug": "seniors_retirement",
+            "is_axis": false,
+            "category_id": 6,
+            "negative_means": "Weakens Social Security, Medicare or pensions",
+            "positive_means": "Strengthens Social Security, Medicare or pensions"
+        },
+        {
+            "name": "Education & student debt",
+            "slug": "education",
+            "is_axis": false,
+            "category_id": 7,
+            "negative_means": "Less access to schools and training, or higher student debt",
+            "positive_means": "More access to schools and training, or lower student debt"
+        },
+        {
+            "name": "Housing affordability",
+            "slug": "housing",
+            "is_axis": false,
+            "category_id": 8,
+            "negative_means": "Harder to rent or buy a home",
+            "positive_means": "Easier to rent or buy a home"
+        },
+        {
+            "name": "Public safety & crime",
+            "slug": "public_safety",
+            "is_axis": false,
+            "category_id": 9,
+            "negative_means": "Increases crime risk or weakens law enforcement and victim support",
+            "positive_means": "Reduces crime or supports law enforcement and victims"
+        },
+        {
+            "name": "Firearms",
+            "slug": "firearms",
+            "is_axis": true,
+            "category_id": 10,
+            "negative_means": "Adds gun regulation",
+            "positive_means": "Expands gun owners' rights"
+        },
+        {
+            "name": "Immigration",
+            "slug": "immigration",
+            "is_axis": true,
+            "category_id": 11,
+            "negative_means": "Expanded legal pathways",
+            "positive_means": "Tighter enforcement and limits"
+        },
+        {
+            "name": "Abortion & reproductive health",
+            "slug": "reproductive_health",
+            "is_axis": true,
+            "category_id": 12,
+            "negative_means": "Restricts access",
+            "positive_means": "Expands access"
+        },
+        {
+            "name": "Environment & climate",
+            "slug": "environment_climate",
+            "is_axis": false,
+            "category_id": 13,
+            "negative_means": "More pollution or emissions, or weaker environmental protection",
+            "positive_means": "Cleaner air, water and land, or lower emissions"
+        },
+        {
+            "name": "National security & defense",
+            "slug": "national_security",
+            "is_axis": false,
+            "category_id": 14,
+            "negative_means": "Weaker military readiness or homeland security",
+            "positive_means": "Stronger military readiness or homeland security"
+        },
+        {
+            "name": "Veterans & military families",
+            "slug": "veterans",
+            "is_axis": false,
+            "category_id": 15,
+            "negative_means": "Reduced benefits, care or support",
+            "positive_means": "Better benefits, care or support"
+        },
+        {
+            "name": "Privacy & civil liberties",
+            "slug": "privacy_civil_liberties",
+            "is_axis": false,
+            "category_id": 16,
+            "negative_means": "Restricts speech or privacy, expands surveillance",
+            "positive_means": "Protects speech and privacy, limits surveillance"
+        },
+        {
+            "name": "Civil rights & equal treatment",
+            "slug": "civil_rights",
+            "is_axis": false,
+            "category_id": 17,
+            "negative_means": "Weaker anti-discrimination protections",
+            "positive_means": "Stronger anti-discrimination protections"
+        },
+        {
+            "name": "Federal deficit & spending",
+            "slug": "deficit_spending",
+            "is_axis": false,
+            "category_id": 18,
+            "negative_means": "Increases the deficit or the debt",
+            "positive_means": "Reduces the deficit or the debt"
+        },
+        {
+            "name": "Rural & agriculture",
+            "slug": "rural_agriculture",
+            "is_axis": false,
+            "category_id": 19,
+            "negative_means": "Hurts farmers and rural communities",
+            "positive_means": "Helps farmers and rural communities"
+        },
+        {
+            "name": "Elections & government accountability",
+            "slug": "elections_accountability",
+            "is_axis": false,
+            "category_id": 20,
+            "negative_means": "Less transparency, weaker ethics rules or reduced voting access",
+            "positive_means": "More transparency, ethics rules or voting access"
+        },
+        {
+            "name": "Energy supply & prices",
+            "slug": "energy",
+            "is_axis": false,
+            "category_id": 21,
+            "negative_means": "Less reliable energy supply or higher energy bills",
+            "positive_means": "More reliable energy supply or lower energy bills"
+        },
+        {
+            "name": "Infrastructure & transportation",
+            "slug": "infrastructure",
+            "is_axis": false,
+            "category_id": 22,
+            "negative_means": "Neglects or cuts roads, transit, water systems or broadband",
+            "positive_means": "Better roads, transit, water systems or broadband"
+        },
+        {
+            "name": "Consumer protection",
+            "slug": "consumer_protection",
+            "is_axis": false,
+            "category_id": 23,
+            "negative_means": "Weakens protections against scams, hidden fees and unsafe products",
+            "positive_means": "Protects people from scams, hidden fees and unsafe products"
+        },
+        {
+            "name": "AI & tech",
+            "slug": "ai_tech",
+            "is_axis": true,
+            "category_id": 24,
+            "negative_means": "Adds oversight, safety rules or limits on AI, platforms and tech firms",
+            "positive_means": "Favors innovation and lighter regulation of AI, platforms and tech firms"
+        }
+    ]
+}

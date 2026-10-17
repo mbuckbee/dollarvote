@@ -1,0 +1,297 @@
+{
+ "model": "jev-1.13.0",
+ "request_id": "req_01a14acf6b7b7cefbc787f13132b8a64",
+ "input_tokens": 5958,
+ "affects": {
+  "cost_of_living": 0.12,
+  "personal_taxes": 0.05,
+  "workers_wages": 0.28,
+  "small_business": 0.23,
+  "health_care": 0.15,
+  "seniors_retirement": 0.14,
+  "education": 0.09,
+  "housing": 0.06,
+  "public_safety": 0.14,
+  "firearms": 0.14,
+  "immigration": 0.08,
+  "reproductive_health": 0.13,
+  "environment_climate": 0.28,
+  "national_security": 0.48,
+  "veterans": 0.32,
+  "privacy_civil_liberties": 0.21,
+  "civil_rights": 0.11,
+  "deficit_spending": 0.31,
+  "rural_agriculture": 0.13,
+  "elections_accountability": 0.08,
+  "energy": 0.21,
+  "infrastructure": 0.16,
+  "consumer_protection": 0.05,
+  "ai_tech": 0.23
+ },
+ "effect": {
+  "cost_of_living": {
+   "score": -0.31000000000000005,
+   "confidence": 0.73,
+   "probabilities": {
+    "-2": 0.01,
+    "-1": 0.3,
+    "0": 0.69,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "personal_taxes": {
+   "score": -0.020000000000000018,
+   "confidence": 0.98,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.02,
+    "0": 0.98,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "workers_wages": {
+   "score": 0.5099999999999998,
+   "confidence": 0.5,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.04,
+    "0": 0.49,
+    "1": 0.38,
+    "2": 0.09
+   }
+  },
+  "small_business": {
+   "score": -0.020000000000000018,
+   "confidence": 0.8,
+   "probabilities": {
+    "-2": 0.01,
+    "-1": 0.11,
+    "0": 0.78,
+    "1": 0.09,
+    "2": 0.01
+   }
+  },
+  "health_care": {
+   "score": -0.020000000000000018,
+   "confidence": 0.84,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.11,
+    "0": 0.81,
+    "1": 0.08,
+    "2": 0.0
+   }
+  },
+  "seniors_retirement": {
+   "score": 0.040000000000000036,
+   "confidence": 0.93,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.02,
+    "0": 0.91,
+    "1": 0.07,
+    "2": 0.0
+   }
+  },
+  "education": {
+   "score": 0.020000000000000018,
+   "confidence": 0.93,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.04,
+    "0": 0.91,
+    "1": 0.05,
+    "2": 0.0
+   }
+  },
+  "housing": {
+   "score": -0.030000000000000027,
+   "confidence": 0.97,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.03,
+    "0": 0.97,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "public_safety": {
+   "score": 0.10000000000000009,
+   "confidence": 0.86,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.03,
+    "0": 0.84,
+    "1": 0.12,
+    "2": 0.01
+   }
+  },
+  "firearms": {
+   "score": -0.06000000000000005,
+   "confidence": 0.93,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.07,
+    "0": 0.92,
+    "1": 0.01,
+    "2": 0.0
+   }
+  },
+  "immigration": {
+   "score": 0.020000000000000018,
+   "confidence": 0.97,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.01,
+    "0": 0.97,
+    "1": 0.02,
+    "2": 0.0
+   }
+  },
+  "reproductive_health": {
+   "score": -0.09000000000000008,
+   "confidence": 0.89,
+   "probabilities": {
+    "-2": 0.02,
+    "-1": 0.07,
+    "0": 0.89,
+    "1": 0.02,
+    "2": 0.0
+   }
+  },
+  "environment_climate": {
+   "score": -0.47,
+   "confidence": 0.56,
+   "probabilities": {
+    "-2": 0.04,
+    "-1": 0.42,
+    "0": 0.51,
+    "1": 0.03,
+    "2": 0.0
+   }
+  },
+  "national_security": {
+   "score": 1.2799999999999998,
+   "confidence": 0.38,
+   "probabilities": {
+    "-2": 0.02,
+    "-1": 0.02,
+    "0": 0.25,
+    "1": 0.1,
+    "2": 0.61
+   }
+  },
+  "veterans": {
+   "score": 0.31000000000000005,
+   "confidence": 0.66,
+   "probabilities": {
+    "-2": 0.01,
+    "-1": 0.03,
+    "0": 0.68,
+    "1": 0.2,
+    "2": 0.08
+   }
+  },
+  "privacy_civil_liberties": {
+   "score": -0.27,
+   "confidence": 0.75,
+   "probabilities": {
+    "-2": 0.03,
+    "-1": 0.22,
+    "0": 0.73,
+    "1": 0.02,
+    "2": 0.0
+   }
+  },
+  "civil_rights": {
+   "score": 0.020000000000000018,
+   "confidence": 0.93,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.03,
+    "0": 0.92,
+    "1": 0.05,
+    "2": 0.0
+   }
+  },
+  "deficit_spending": {
+   "score": -1.0,
+   "confidence": 0.18,
+   "probabilities": {
+    "-2": 0.47000000000000003,
+    "-1": 0.08,
+    "0": 0.45,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "rural_agriculture": {
+   "score": 0.06000000000000005,
+   "confidence": 0.9,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.03,
+    "0": 0.88,
+    "1": 0.09,
+    "2": 0.0
+   }
+  },
+  "elections_accountability": {
+   "score": -0.010000000000000009,
+   "confidence": 0.95,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.03,
+    "0": 0.94,
+    "1": 0.03,
+    "2": 0.0
+   }
+  },
+  "energy": {
+   "score": -0.020000000000000018,
+   "confidence": 0.68,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.2,
+    "0": 0.62,
+    "1": 0.18,
+    "2": 0.0
+   }
+  },
+  "infrastructure": {
+   "score": -0.020000000000000018,
+   "confidence": 0.92,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.06,
+    "0": 0.9,
+    "1": 0.04,
+    "2": 0.0
+   }
+  },
+  "consumer_protection": {
+   "score": 0.0,
+   "confidence": 1.0,
+   "probabilities": {
+    "-2": 0.0,
+    "-1": 0.0,
+    "0": 1.0,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "ai_tech": {
+   "score": -0.15999999999999992,
+   "confidence": 0.72,
+   "probabilities": {
+    "-2": 0.01,
+    "-1": 0.22,
+    "0": 0.69,
+    "1": 0.07,
+    "2": 0.01
+   }
+  }
+ }
+}

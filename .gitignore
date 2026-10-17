@@ -1,0 +1,14 @@
+.DS_Store
+.env*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw downloaded source data (large; re-fetch per data/raw/118/README.md)
+data/raw/**
+!data/raw/118/README.md
+
+# Screenshots
+web/.shots/
